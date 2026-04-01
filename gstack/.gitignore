@@ -1,20 +1,15 @@
-.env
+# Dependencies
 node_modules/
-browse/dist/
-design/dist/
-bin/gstack-global-discover
-.gstack/
-.claude/skills/
+
+# Build artifacts
+dist/
 .agents/
 .factory/
-.context/
-extension/.auth.json
-.gstack-worktrees/
-/tmp/
-*.log
-*.bun-build
+
+# Compiled binaries
+bin/gstack-global-discover
+
+# Environment and logs
 .env
 .env.local
-.env.*
-!.env.example
-supabase/.temp/
+*.log
